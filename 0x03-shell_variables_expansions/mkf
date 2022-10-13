@@ -1,0 +1,10 @@
+function file_maker () {
+     read -p "Enter the neme of your file >>> " file
+     touch $file
+     echo "#!/bin/bash" > $file
+	echo "start adding new one"
+     cat >> $file
+}
+
+file_maker
+     
